@@ -1,0 +1,16 @@
+<div class="container">
+    {{#if message.error}}
+    <p class="error container">{{message.error}}</p>
+    {{/if}}
+
+    {{#if message.success}}
+    <p class="success container">{{message.success}}</p>
+    {{/if}}
+    <h2 class="">Convert</h2>
+    <p>Upload a file to convert to Excel (.xlsx) </p>
+    <form action="/upload" method="POST" enctype="multipart/form-data" accept="application/pdf" class="container">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <br>
+        <button type="submit" class="button">Convert</button>
+    </form>
+</div>

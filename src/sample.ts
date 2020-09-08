@@ -1,0 +1,54 @@
+const data =
+  [
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Verma",
+      "email": "example@gmail.com",
+      "Mob:": 1234567890,
+      "country": "India"
+    }
+  ]
+
+export default data;

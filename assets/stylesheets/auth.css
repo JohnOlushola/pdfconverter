@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  font-family: "DM Serif Display", serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2ddf5f;
+  cursor: pointer;
+}
+
+/* Colors */
+.white {
+  color: #ffffff;
+}
+
+/* Nav */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  box-shadow: 0px 28px 82px -45px rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar .title {
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.nav-bar .user {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #acacac;
+  background-color: #000000;
+  box-shadow: 0px 0px 62px -15px rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar .user .text {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Custom */
+.container {
+  padding: 60px;
+}
+
+/* Form */
+.form-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* justify-content: center; */
+}
+
+form {
+  height: 390px;
+  margin: auto;
+}
+
+input {
+  width: 300px;
+  display: block;
+  padding: 1rem 1rem 0.5rem 0.45rem;
+  font-size: 1rem;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #000;
+  color: #000;
+  margin-bottom: 15px;
+  -webkit-transition: border-bottom 0.25s ease-in-out;
+  transition: border-bottom 0.25s ease-in-out;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 2px solid #2ddf5f;
+}
+
+button {
+  color: #000;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #2ddf5f;
+  border: 3px solid #2ddf5f;
+  border-radius: 30px;
+  -webkit-transition: box-shadow 0.25s ease-in-out,
+    -webkit-transform 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    -webkit-transform 0.25s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  -webkit-transform: translate(2px);
+  transform: translate(2px);
+}
+
+/* Footer */
+footer {
+  margin-top: auto !important;
+  position: relative;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  background: #000;
+  clear: both;
+  -webkit-box-orient: vertical;
+  color: #fff !important;
+}
